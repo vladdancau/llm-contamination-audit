@@ -1,0 +1,11 @@
+# Core dependencies -- needed for every cell in contamination_audit.ipynb to run.
+numpy
+matplotlib
+cryptography
+
+# Optional -- only needed for run_pythia_audit(smoke_test=False), i.e. a real
+# audit against live Pythia checkpoints. Requires GPU + Hugging Face network
+# access that this sandbox does not have.
+# torch
+# transformers
+# datasets
